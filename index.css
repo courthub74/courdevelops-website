@@ -45,6 +45,16 @@
     width: 100%;
     font-family: "Inter", sans-serif;
   }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts .name_subject_phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   body #whole_page .slide_in_menu .slide_in_contents .menu_contents .landscape_contents {
     width: 100%;
   }
