@@ -1862,6 +1862,7 @@ $buttongrey: #61677A;
                     align-items: center;
                     position: relative;
                     // top: 35px;
+                    height: 100vh;
                     width: 80%;
                     #courdevelops_landscape_logo {
                         display: none;
@@ -1876,89 +1877,87 @@ $buttongrey: #61677A;
                         // left: 5px;
                         // background-color: #00C6C3;
                         font-family: 'Inter', sans-serif;
-                        // ALL THE CONTACT STUFF
-                        .landscape_contents {
+                        // ALL CONTACTS
+                        .all_contacts {
                             display: flex;
                             flex-direction: column;
+                            justify-content: center;
                             align-items: center;
-                            margin: -6em 0 0 6em;
-                            // background-color: #00C6C3;
-                            .section_title {
-                                font-family: 'Inter', sans-serif;
-                                font-size: 2.2rem;
-                                color: white;
-                                font-weight: bold;
-                                width: 100%;
-                            }
-                            // INPUTS
-                            input {
-                                background-color: $darkblue;
-                                border: 3px solid white;
-                                width: 100%;
-                                width: 22em;
-                                height: 2em;
-                                color: white;
-                            }
-                            // TEXTAREA
-                            textarea {
-                                background-color: $darkblue;
-                                border: 3px solid white;
-                                width: 22em;
-                                height: 12em;
-                                resize: none;
-                                color: white;
-                            }
-                            // ALL CONTACTS
-                            .all_contacts {
+                            .email_square {
                                 display: flex;
-                                align-items: baseline;
-                                gap: 3em;
-                                .name_subject_phone {
-                                    display: flex;
-                                    flex-direction: column;
-                                    gap: .3em;
-                                    .name_section {
-                                        display: flex;
-                                        flex-direction: column;
-                                        width: 100%;
-                                        gap: .5em;
-                                        margin-top: 1em;
-                                    }
-                                    .subject_section {
-                                        display: flex;
-                                        flex-direction: column;
-                                        gap: .5em;
-                                        width: 100%;
-                                    }
-                                    .phone_section {
-                                        display: flex;
-                                        flex-direction: column;
-                                        gap: .5em;
-                                        width: 100%;
-                                    }
+                                align-items: center;
+                                margin: 0em 0 0 0;
+                                gap: 1em;
+                                // background-color: #00C6C3;
+                                // height: 50%;
+                                background-color: white;
+                                padding: 1em;
+                                p {
+                                    font-size: 1.5rem;
+                                    font-weight: bold;
+                                    color: $darkblue;
                                 }
-                                // Message Section
-                                .message_section {
+                                button {
+                                    background-color: $darkblue;
+                                    border: none;
+                                    height: 3em;
+                                    width: 3em;
+                                    padding: 1.5em;
                                     display: flex;
-                                    flex-direction: column;
-                                    gap: .5em;
-                                    width: 100%;
-                                    box-sizing: border-box;
-                                    float: inline-end;
-                                    // background-color: #00C6C3;
-                                    // display: none;
-                                    .submit_button {
-                                        background-color: white;
-                                        color: $darkblue;
-                                        width: 100%;
-                                        height: 2em;
-                                        border: none;
-                                        font-family: 'Inter', sans-serif;
-                                        font-weight: bold;
-                                        font-size: .8rem;
+                                    justify-content: center;
+                                    align-items: center;
+                                    cursor: pointer;
+                                    border-radius: 5px;
+                                    img {
+                                        height: 1.5em;
+                                        width: 1.5em;
+                                    }
+                                    #copy_squares {
+                                        position: absolute;
+                                        transition: .4s all ease-in;
+                                    }
+                                    #copy_squares.tapped {
+                                        opacity: 0;
+                                    }
+                                    #copy_success {
+                                        opacity: 0;
+                                        transition: .6s all ease-in-out;
+                                    }
+                                    #copy_success.tapped {
+                                        opacity: 1;
                                     }
                                 }
                             }
+                            // Email Copied words
+                            .email_copied {
+                                text-align: right;
+                                width: 100%;
+                                // background-color: #00313E;
+                                padding: 1em 0 0 .4em;
+                                
+                                p {
+                                    font-size: .8rem;
+                                }
+                            }
+                            #email_copy {
+                                opacity: 0;
+                                transition: .4s all ease-in;
+                            }
+                            #email_copy.tapped {
+                                opacity: 1;
+                            }
+                        }
+                         .landscape_contents {
+                            width: 100%;
+                        }
+                        .section_title {
+                            font-family: 'Inter', sans-serif;
+                            font-size: 2.2rem;
+                            color: white;
+                            // color: red;
+                            font-weight: bold;
+                            width: 100%;
+                            margin-bottom: 1em;
                         }
                     }
                 }
@@ -3549,6 +3548,77 @@ $buttongrey: #61677A;
                         height: 100%;
                         width: 100%;
                         font-family: 'Inter', sans-serif;
+                        // ALL CONTACTS
+                        .all_contacts {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            margin: -12em 0 0 0;
+                            .email_square {
+                                display: flex;
+                                align-items: center;
+                                margin: 0em 0 0 0;
+                                gap: 1em;
+                                // background-color: #00C6C3;
+                                // height: 50%;
+                                background-color: white;
+                                padding: 1em;
+                                p {
+                                    font-size: 1.5rem;
+                                    font-weight: bold;
+                                    color: $darkblue;
+                                }
+                                button {
+                                    background-color: $darkblue;
+                                    border: none;
+                                    height: 3em;
+                                    width: 3em;
+                                    padding: 1.5em;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    cursor: pointer;
+                                    border-radius: 5px;
+                                    img {
+                                        height: 1.5em;
+                                        width: 1.5em;
+                                    }
+                                    #copy_squares {
+                                        position: absolute;
+                                        transition: .4s all ease-in;
+                                    }
+                                    #copy_squares.tapped {
+                                        opacity: 0;
+                                    }
+                                    #copy_success {
+                                        opacity: 0;
+                                        transition: .6s all ease-in-out;
+                                    }
+                                    #copy_success.tapped {
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+                            // Email Copied words
+                            .email_copied {
+                                text-align: right;
+                                width: 63%;
+                                // background-color: #00313E;
+                                padding: 1em 0 0 .4em;
+                                
+                                p {
+                                    font-size: .8rem;
+                                }
+                            }
+                            #email_copy {
+                                opacity: 0;
+                                transition: .4s all ease-in;
+                            }
+                            #email_copy.tapped {
+                                opacity: 1;
+                            }
+                        }
                         .landscape_contents {
                             width: 100%;
                         }
@@ -3558,65 +3628,6 @@ $buttongrey: #61677A;
                             color: white;
                             font-weight: bold;
                             width: 100%;
-                        }
-                        // INPUTS
-                        input {
-                            background-color: $darkblue;
-                            border: 3px solid white;
-                            width: 85%;
-                            width: 95%;
-                            height: 3em;
-                            color: white;
-                        }
-                        // TEXTAREA
-                        textarea {
-                            background-color: $darkblue;
-                            border: 3px solid white;
-                            width: 85%;
-                            width: 95%;
-                            height: 15em;
-                            resize: none;
-                            color: white;
-                        }
-                        .name_section {
-                            display: flex;
-                            flex-direction: column;
-                            gap: .5em;
-                            width: 100%;
-                            margin-top: 1em;
-                        }  
-                        .subject_section {
-                            display: flex;
-                            flex-direction: column;
-                            gap: .5em;
-                            width: 100%;
-                            // margin-top: 1em;
-                        }
-                        .phone_section {
-                            display: flex;
-                            flex-direction: column;
-                            gap: .5em;
-                            width: 100%;
-                        }
-                        .message_section {
-                            display: flex;
-                            flex-direction: column;
-                            gap: .5em;
-                            width: 100%;
-                            // Submit Button
-                            .submit_button {
-                                color: $darkblue;
-                                background-color: white;
-                                box-sizing: border-box;
-                                width: 87%;
-                                width: 96.5%;
-                                height: 3em;
-                                border: none;
-                                font-family: 'Inter', sans-serif;
-                                font-weight: bold;
-                                margin: 1em 0 0 0;
-                                font-size: .8rem;
-                            }
                         }
                     }
                 }
@@ -5284,6 +5295,77 @@ $buttongrey: #61677A;
                         height: 100%;
                         width: 100%;
                         font-family: 'Inter', sans-serif;
+                        // ALL CONTACTS
+                        .all_contacts {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            margin-top: -15em;
+                            .email_square {
+                                display: flex;
+                                align-items: center;
+                                margin: 0em 0 0 0;
+                                gap: 1em;
+                                // background-color: #00C6C3;
+                                // height: 50%;
+                                background-color: white;
+                                padding: 1em;
+                                p {
+                                    font-size: 1.5rem;
+                                    font-weight: bold;
+                                    color: $darkblue;
+                                }
+                                button {
+                                    background-color: $darkblue;
+                                    border: none;
+                                    height: 3em;
+                                    width: 3em;
+                                    padding: 1.5em;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    cursor: pointer;
+                                    border-radius: 5px;
+                                    img {
+                                        height: 1.5em;
+                                        width: 1.5em;
+                                    }
+                                    #copy_squares {
+                                        position: absolute;
+                                        transition: .4s all ease-in;
+                                    }
+                                    #copy_squares.tapped {
+                                        opacity: 0;
+                                    }
+                                    #copy_success {
+                                        opacity: 0;
+                                        transition: .6s all ease-in-out;
+                                    }
+                                    #copy_success.tapped {
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+                            // Email Copied words
+                            .email_copied {
+                                text-align: right;
+                                width: 60%;
+                                // background-color: #00313E;
+                                // padding: 1em 0 0 .4em;
+                                
+                                p {
+                                    font-size: .8rem;
+                                }
+                            }
+                            #email_copy {
+                                opacity: 0;
+                                transition: .4s all ease-in;
+                            }
+                            #email_copy.tapped {
+                                opacity: 1;
+                            }
+                        }
                         .landscape_contents {
                             width: 100%;
                         }
@@ -5293,65 +5375,6 @@ $buttongrey: #61677A;
                             color: white;
                             font-weight: bold;
                             width: 100%;
-                        }
-                        // INPUTS
-                        input {
-                            background-color: $darkblue;
-                            border: 3px solid white;
-                            width: 85%;
-                            width: 95%;
-                            height: 3em;
-                            color: white;
-                        }
-                        // TEXTAREA
-                        textarea {
-                            background-color: $darkblue;
-                            border: 3px solid white;
-                            width: 85%;
-                            width: 95%;
-                            height: 15em;
-                            resize: none;
-                            color: white;
-                        }
-                        .name_section {
-                            display: flex;
-                            flex-direction: column;
-                            gap: .5em;
-                            width: 100%;
-                            margin-top: 1em;
-                        }  
-                        .subject_section {
-                            display: flex;
-                            flex-direction: column;
-                            gap: .5em;
-                            width: 100%;
-                            // margin-top: 1em;
-                        }
-                        .phone_section {
-                            display: flex;
-                            flex-direction: column;
-                            gap: .5em;
-                            width: 100%;
-                        }
-                        .message_section {
-                            display: flex;
-                            flex-direction: column;
-                            gap: .5em;
-                            width: 100%;
-                            // Submit Button
-                            .submit_button {
-                                color: $darkblue;
-                                background-color: white;
-                                box-sizing: border-box;
-                                width: 87%;
-                                width: 96.5%;
-                                height: 3em;
-                                border: none;
-                                font-family: 'Inter', sans-serif;
-                                font-weight: bold;
-                                margin: 1em 0 0 0;
-                                font-size: .8rem;
-                            }
                         }
                     }
                 }
@@ -7035,74 +7058,73 @@ $buttongrey: #61677A;
                                 font-weight: bold;
                                 width: 100%;
                             }
-                            // INPUTS
-                            input {
-                                background-color: $darkblue;
-                                border: 3px solid white;
-                                width: 100%;
-                                width: 22em;
-                                width: 30em;
-                                height: 2em;
-                                color: white;
-                            }
-                            // TEXTAREA
-                            textarea {
-                                background-color: $darkblue;
-                                border: 3px solid white;
-                                width: 30em;
-                                height: 12em;
-                                resize: none;
-                                color: white;
-                            }
                             // ALL CONTACTS
                             .all_contacts {
                                 display: flex;
-                                align-items: baseline;
-                                gap: 3em;
-                                .name_subject_phone {
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                .email_square {
                                     display: flex;
-                                    flex-direction: column;
-                                    gap: .3em;
-                                    .name_section {
-                                        display: flex;
-                                        flex-direction: column;
-                                        width: 100%;
-                                        gap: .5em;
-                                        margin-top: 1em;
+                                    align-items: center;
+                                    margin: 0em 0 0 0;
+                                    gap: 1em;
+                                    // background-color: #00C6C3;
+                                    // height: 50%;
+                                    background-color: white;
+                                    padding: 1em;
+                                    p {
+                                        font-size: 1.5rem;
+                                        font-weight: bold;
+                                        color: $darkblue;
                                     }
-                                    .subject_section {
+                                    button {
+                                        background-color: $darkblue;
+                                        border: none;
+                                        height: 3em;
+                                        width: 3em;
+                                        padding: 1.5em;
                                         display: flex;
-                                        flex-direction: column;
-                                        gap: .5em;
-                                        width: 100%;
-                                    }
-                                    .phone_section {
-                                        display: flex;
-                                        flex-direction: column;
-                                        gap: .5em;
-                                        width: 100%;
+                                        justify-content: center;
+                                        align-items: center;
+                                        cursor: pointer;
+                                        border-radius: 5px;
+                                        img {
+                                            height: 1.5em;
+                                            width: 1.5em;
+                                        }
+                                        #copy_squares {
+                                            position: absolute;
+                                            transition: .4s all ease-in;
+                                        }
+                                        #copy_squares.tapped {
+                                            opacity: 0;
+                                        }
+                                        #copy_success {
+                                            opacity: 0;
+                                            transition: .6s all ease-in-out;
+                                        }
+                                        #copy_success.tapped {
+                                            opacity: 1;
+                                        }
                                     }
                                 }
-                                // Message Section
-                                .message_section {
-                                    display: flex;
-                                    flex-direction: column;
-                                    gap: .5em;
-                                    width: 100%;
-                                    box-sizing: border-box;
-                                    float: inline-end;
-                                    // background-color: #00C6C3;
-                                    // display: none;
-                                    .submit_button {
-                                        background-color: white;
-                                        color: $darkblue;
-                                        width: 100%;
-                                        height: 2em;
-                                        border: none;
-                                        font-family: 'Inter', sans-serif;
-                                        font-weight: bold;
+                                // Email Copied words
+                                .email_copied {
+                                    text-align: right;
+                                    width: 98%;
+                                    // background-color: #00313E;
+                                    // padding: 1em 0 0 .4em;
+                                    p {
                                         font-size: .8rem;
                                     }
+                                }
+                                #email_copy {
+                                    opacity: 0;
+                                    transition: .4s all ease-in;
+                                }
+                                #email_copy.tapped {
+                                    opacity: 1;
                                 }
                             }
                         }
@@ -8740,74 +8762,74 @@ $buttongrey: #61677A;
                                 font-weight: bold;
                                 width: 100%;
                             }
-                            // INPUTS
-                            input {
-                                background-color: $darkblue;
-                                border: 3px solid white;
-                                width: 100%;
-                                width: 22em;
-                                width: 30em;
-                                height: 2em;
-                                color: white;
-                            }
-                            // TEXTAREA
-                            textarea {
-                                background-color: $darkblue;
-                                border: 3px solid white;
-                                width: 30em;
-                                height: 12em;
-                                resize: none;
-                                color: white;
-                            }
                             // ALL CONTACTS
                             .all_contacts {
                                 display: flex;
-                                align-items: baseline;
-                                gap: 3em;
-                                .name_subject_phone {
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                // gap: 3em;
+                                .email_square {
                                     display: flex;
-                                    flex-direction: column;
-                                    gap: .3em;
-                                    .name_section {
-                                        display: flex;
-                                        flex-direction: column;
-                                        width: 100%;
-                                        gap: .5em;
-                                        margin-top: 1em;
+                                    align-items: center;
+                                    margin: 0em 0 0 0;
+                                    gap: 1em;
+                                    // background-color: #00C6C3;
+                                    // height: 50%;
+                                    background-color: white;
+                                    padding: 1em;
+                                    p {
+                                        font-size: 1.5rem;
+                                        font-weight: bold;
+                                        color: $darkblue;
                                     }
-                                    .subject_section {
+                                    button {
+                                        background-color: $darkblue;
+                                        border: none;
+                                        height: 3em;
+                                        width: 3em;
+                                        padding: 1.5em;
                                         display: flex;
-                                        flex-direction: column;
-                                        gap: .5em;
-                                        width: 100%;
-                                    }
-                                    .phone_section {
-                                        display: flex;
-                                        flex-direction: column;
-                                        gap: .5em;
-                                        width: 100%;
+                                        justify-content: center;
+                                        align-items: center;
+                                        cursor: pointer;
+                                        border-radius: 5px;
+                                        img {
+                                            height: 1.5em;
+                                            width: 1.5em;
+                                        }
+                                        #copy_squares {
+                                            position: absolute;
+                                            transition: .4s all ease-in;
+                                        }
+                                        #copy_squares.tapped {
+                                            opacity: 0;
+                                        }
+                                        #copy_success {
+                                            opacity: 0;
+                                            transition: .6s all ease-in-out;
+                                        }
+                                        #copy_success.tapped {
+                                            opacity: 1;
+                                        }
                                     }
                                 }
-                                // Message Section
-                                .message_section {
-                                    display: flex;
-                                    flex-direction: column;
-                                    gap: .5em;
-                                    width: 100%;
-                                    box-sizing: border-box;
-                                    float: inline-end;
-                                    // background-color: #00C6C3;
-                                    // display: none;
-                                    .submit_button {
-                                        background-color: white;
-                                        color: $darkblue;
-                                        width: 100%;
-                                        height: 2em;
-                                        border: none;
-                                        font-family: 'Inter', sans-serif;
-                                        font-weight: bold;
+                                // Email Copied words
+                                .email_copied {
+                                    text-align: right;
+                                    width: 98%;
+                                    // background-color: #00313E;
+                                    // padding: 1em 0 0 .4em;
+                                    p {
                                         font-size: .8rem;
                                     }
+                                }
+                                #email_copy {
+                                    opacity: 0;
+                                    transition: .4s all ease-in;
+                                }
+                                #email_copy.tapped {
+                                    opacity: 1;
                                 }
                             }
                         }
