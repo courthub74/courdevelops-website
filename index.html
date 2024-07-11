@@ -23,30 +23,21 @@
 
                         <!-- ALL THE INPUTS AND TEXTAREAS -->
                          <div class="all_contacts">
-                            <!-- FLEX THESE -->
-                             <!-- NAME AND SUBJECT DIV -->
-                            <div class="name_subject_phone">
-                                <!-- COLUMN THESE -->
-                                <div class="name_section">
-                                    <label>Name:</label>
-                                    <input type="text"/>
-                                </div>
-                                <div class="subject_section">
-                                    <label>Subject:</label>
-                                    <input type="text"/>
-                                </div>
-                                <div class="phone_section">
-                                    <label>Phone#:</label>
-                                    <input type="text"/>
-                                </div>
-                            </div>
-
-                            <!-- MESSAGE SECTION -->
-                            <div class="message_section">
-                                <label>Message:</label>
-                                <textarea id="message_text"></textarea>
-                                <button class="submit_button">Submit</button>
-                            </div>
+                             <!--The Email Square Here  -->
+                             <div class="email_square">
+                                <!-- Email ADDY and COPY button -->
+                                 <p id="email_addy">courdevelops@gmail.com</p>
+                                 <button id="copy_email">
+                                    <!-- Copy Squares -->
+                                    <img src="./img/copybutton/copy_squares.png" id="copy_squares">
+                                    <!-- Copied Check -->
+                                     <img src="./img/copybutton/copy_success.png" id="copy_success">
+                                 </button>
+                             </div>
+                             <!-- Copied -->
+                              <div class="email_copied">
+                                <p id="email_copy">Email Copied</p>
+                              </div>
                          </div>
                     </div>
                         
@@ -924,11 +915,11 @@
 
 <!-- JS -->
 <script src="experience.js"></script>
-<!-- <script src="contact.js"></script> -->
+<script src="contact_copy.js"></script>
 <script src="skills.js"></script>
 <script src="portfolio.js"></script>
 <script src="navbar.js"></script>
 <script src="slidemenu.js"></script>
 <!-- Texting -->
- <script src="sendtext.js"></script>
+ <!-- <script src="sendtext.js"></script> -->
 </html>
