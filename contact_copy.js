@@ -20,25 +20,20 @@ copy_email_button.addEventListener('click', () => {
     copy_squares.classList.add('tapped');
     // make check appear
     copy_success.classList.add('tapped');
-    //'select' the email_addy
-    // email_addy.select();
     // copy the email addy 
-        // execute command method copies text to clipboard
+        // with clipboard API
     navigator.clipboard.writeText(email_addy.innerHTML);
+    // make notification appear
+    email_copied.classList.add('tapped');
     // reset the page on timer
+    resetCopyEmail = () => {
+        console.log("Ready to reset");
+        // make copy boxes re-appear
+        copy_squares.classList.remove('tapped');
+        // make check dissapear
+        copy_success.classList.remove('tapped');
+        // remove notification
+        email_copied.classList.remove('tapped');
+    }
+    setTimeout(resetCopyEmail, 2000);
 });
-
-// add event listener to email button
-// copy_email_button.onclick = function () {
-//     console.log("email_copy_button");
-//     // make copy boxes dissapear
-//     copy_squares.classList.add('tapped');
-//     // make check appear
-//     copy_success.classList.add('tapped');
-//     //'select' the email_addy
-//     email_addy.select();
-//     // copy the email addy 
-//         // execute command method copies text to clipboard
-//     document.execCommand("copy");
-//     // reset the page on timer
-// };
