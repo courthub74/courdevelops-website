@@ -13477,9 +13477,9 @@ $buttongrey: #61677A;
                                         align-items: center;
                                         gap: 2.5em;
                                         gap: 2vw;
-                                        padding-top: 1em;
+                                        margin: -2em 0 0 0;
+                                        // padding-top: 1em;
                                         // background-color: #00313E;
-                                        margin: 0 0 0 0em;
                                         // filter: opacity(80%);
                                         #courdevelops_desktop {
                                             width: 3.5em;
@@ -13615,7 +13615,7 @@ $buttongrey: #61677A;
                                 }
                                 .footer_logo {
                                     // background-color: red;
-                                    margin: -2em 0 0 5em;
+                                    margin: -3em 0 0 5em;
                                     small {
                                         color: white;
                                         display: flex;
@@ -13657,6 +13657,7 @@ $buttongrey: #61677A;
                             display: flex;
                             align-items: center;
                             gap: 2.5em;
+                            // margin: -5em 0 0 0;
                             // gap: 10vw;
                             // filter: opacity(80%);
                             #github {
