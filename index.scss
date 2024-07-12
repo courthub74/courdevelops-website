@@ -13455,6 +13455,7 @@ $buttongrey: #61677A;
                                         gap: 2.5em;
                                         gap: 2vw;
                                         padding-top: 1em;
+                                        // background-color: #00313E;
                                         margin: 0 0 0 0em;
                                         // filter: opacity(80%);
                                         #courdevelops_desktop {
@@ -13498,89 +13499,91 @@ $buttongrey: #61677A;
                                         display: flex;
                                         flex-direction: column;
                                         gap: 5px;
-                                        // margin-left: -70em;
-                                        // For the top of the email input
+                                        margin-left: 3em;
+                                        // ALL CONTACTS
                                         label {
-                                            font-family: 'Inter', sans-serif;
-                                            color: white;
-                                            font-weight: bold;
-                                            filter: opacity(90%);
+                                            font-size: 1.5rem;
+                                            // background-color: #0d1270;
                                         }
-                                        .email_submit {
+                                        .all_contacts {
                                             display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
                                             align-items: center;
-                                            gap: 1em;
-                                            #email_address {
-                                                padding: 1em 1em;
-                                            }
-                                            #email_address.contact {
-                                                border: 2px solid $jobdescription;
-                                                border: 2px solid yellow;
-                                                transition: .3s all ease-out;
-                                            }
-                                            #name_text {
-                                                padding: 1em 1em;
-                                            }
-                                            #name_text.contact {
-                                                border: 2px solid $jobdescription;
-                                                border: 2px solid yellow;
-                                                transition: .3s all ease-out;
-                                            }
-                                            input {
-                                                padding: 1em 4em;
-                                                border: none;
-                                                border: 2px solid white;
-                                                background: none;
-                                                color: $jobdescription;
-                                                color: white;
-                                                transition: .3s all ease-out;
-                                                // filter: opacity(80%);
-                                            }
-                                            input:focus {
-                                                border: none;
-                                            }
-                                            input.contact {
-                                                border: 2px solid yellow;
-                                                transition: .3s all ease-out;
-                                            }
-                                            ::placeholder {
-                                                color: gray;
-                                                color: $footerblue;
-                                                color: $nextgreen;
-                                                color: $jobdescription;
-                                                color: white;
-                                                filter: opacity(75%);
-                                                font-family: 'Inter', sans-serif;
-                                                text-align: center;
-                                            }
-                                            button {
-                                                border: 2px solid $jobdescription;
-                                                border: 2px solid white;
-                                                border-left: none;
-                                                color: $jobdescription;
-                                                color: white;
-                                                color: $footerblue;
-                                                background: none;
+                                            // margin: 0 0 0 1em;
+                                            .email_square {
+                                                display: flex;
+                                                align-items: center;
+                                                margin: 0em 0 0 0;
+                                                gap: 1em;
+                                                // background-color: #00C6C3;
+                                                // height: 50%;
+                                                background-color: rgba(255, 255, 255, 0.664);
                                                 background-color: white;
-                                                padding: 1em 3em;
-                                                font-weight: bold;
-                                                cursor: pointer;
-                                                transition: .3s all ease-out;
+                                                padding: .6em;
+                                                p {
+                                                    font-family: 'Inter', sans-serif;
+                                                    font-size: 1.3rem;
+                                                    font-weight: bold;
+                                                    color: $darkblue;
+                                                }
+                                                button {
+                                                    background-color: $darkblue;
+                                                    border: none;
+                                                    height: 3em;
+                                                    width: 3em;
+                                                    padding: 1.5em;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    cursor: pointer;
+                                                    border-radius: 5px;
+                                                    img {
+                                                        height: 1.5em;
+                                                        width: 1.5em;
+                                                    }
+                                                    #copy_squares {
+                                                        position: absolute;
+                                                        transition: .4s all ease-in;
+                                                    }
+                                                    #copy_squares.tapped {
+                                                        opacity: 0;
+                                                    }
+                                                    #copy_success {
+                                                        opacity: 0;
+                                                        transition: .6s all ease-in-out;
+                                                    }
+                                                    #copy_success.tapped {
+                                                        opacity: 1;
+                                                    }
+                                                }
                                             }
-                                            button.contact {
-                                                background-color: $jobdescription;
-                                                background-color: yellow;
-                                                border: 2px solid yellow;
-                                                color: $footerblue;
+                                            // Email Copied words
+                                            .email_copied {
+                                                text-align: right;
+                                                width: 100%;
+                                                // background-color: #00313E;
+                                                padding: 1em 0 0 .4em;
                                                 
+                                                p {
+                                                    font-size: .8rem;
+                                                }
+                                            }
+                                            #email_copy {
+                                                opacity: 0;
+                                                transition: .4s all ease-in;
+                                            }
+                                            #email_copy.tapped {
+                                                opacity: 1;
                                             }
                                         }
                                     }
+
                                     
                                 }
                                 .footer_logo {
                                     // background-color: red;
-                                    margin: 0 0 0 5em;
+                                    margin: -2em 0 0 5em;
                                     small {
                                         color: white;
                                         display: flex;
