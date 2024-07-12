@@ -9462,7 +9462,7 @@
     margin-left: 3em;
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer label {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: white;
     font-family: "Inter", sans-serif;
     font-weight: bold;
@@ -9478,8 +9478,10 @@
     align-items: center;
     margin: 0em 0 0 0;
     gap: 1em;
+    border: 3px solid white;
     background-color: rgba(255, 255, 255, 0.664);
     background-color: white;
+    background-color: #060927;
     padding: 0.6em;
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .all_contacts .email_square p {
@@ -9487,6 +9489,7 @@
     font-size: 1.3rem;
     font-weight: bold;
     color: #080E2F;
+    color: white;
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .all_contacts .email_square button {
     background-color: #080E2F;
@@ -9499,7 +9502,6 @@
     align-items: center;
     cursor: pointer;
     border-radius: 5px;
-    background-color: #146166;
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .all_contacts .email_square button img {
     height: 1.5em;

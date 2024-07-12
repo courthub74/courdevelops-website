@@ -13507,7 +13507,7 @@ $buttongrey: #61677A;
                                         margin-left: 3em;
                                         // ALL CONTACTS
                                         label {
-                                            font-size: 1.5rem;
+                                            font-size: 1.8rem;
                                             color: white;
                                             font-family: 'Inter', sans-serif;
                                             font-weight: bold;
@@ -13524,16 +13524,19 @@ $buttongrey: #61677A;
                                                 align-items: center;
                                                 margin: 0em 0 0 0;
                                                 gap: 1em;
+                                                border: 3px solid white;
                                                 // background-color: #00C6C3;
                                                 // height: 50%;
                                                 background-color: rgba(255, 255, 255, 0.664);
                                                 background-color: white;
+                                                background-color: $footerblue;
                                                 padding: .6em;
                                                 p {
                                                     font-family: 'Inter', sans-serif;
                                                     font-size: 1.3rem;
                                                     font-weight: bold;
                                                     color: $darkblue;
+                                                    color: white;
                                                 }
                                                 button {
                                                     background-color: $darkblue;
@@ -13546,7 +13549,7 @@ $buttongrey: #61677A;
                                                     align-items: center;
                                                     cursor: pointer;
                                                     border-radius: 5px;
-                                                    background-color: $skillsteal;
+                                                    // background-color: $skillsteal;
                                                     img {
                                                         height: 1.5em;
                                                         width: 1.5em;
