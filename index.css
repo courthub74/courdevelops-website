@@ -9271,7 +9271,6 @@
   }
   body #whole_page .whole_page .experience_section {
     background-color: #080E2F;
-    height: 95vh;
     padding: 3em 0 1em 0;
   }
   body #whole_page .whole_page .experience_section .experience_section_content {
@@ -9420,8 +9419,9 @@
     padding: 2em 5em 2em 5em;
     border-top: #00313E 3px solid;
     background-color: #060927;
-    height: 8em;
+    height: 6em;
     margin: -1em 0 0 0;
+    margin: -4em 0 0 0;
     filter: opacity(90%);
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements {

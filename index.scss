@@ -13288,8 +13288,6 @@ $buttongrey: #61677A;
                 /// EXPERIENCE SECTION
                 .experience_section {
                     background-color: $darkblue;
-                    height: 95vh;
-                    // height: 105vh;
                     padding: 3em 0 1em 0;
                     // padding: 3em 0 0em 0;
                     .experience_section_content {
@@ -13462,9 +13460,9 @@ $buttongrey: #61677A;
                                 border-top: $nextgreen 3px solid;
                                 background-color: #060927;
                                 // background-color: #00C6C3;
-                                height: 8em;
+                                height: 6em;
                                 margin: -1em 0 0 0;
-                                // margin: 0 0 0 0;
+                                margin: -4em 0 0 0;
                                 // border-top: 3px solid $skillsteal;
                                 filter: opacity(90%);
                                 // width: 100%;
