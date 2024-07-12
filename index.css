@@ -1483,12 +1483,15 @@
     margin: 0em 0 0 0;
     gap: 1em;
     background-color: white;
+    background-color: #080E2F;
+    border: 3px solid white;
     padding: 1em;
   }
   body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts .email_square p {
     font-size: 1.5rem;
     font-weight: bold;
     color: #080E2F;
+    color: white;
   }
   body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts .email_square button {
     background-color: #080E2F;
@@ -2846,12 +2849,15 @@
     margin: 0em 0 0 0;
     gap: 1em;
     background-color: white;
+    background-color: #080E2F;
+    border: 3px solid white;
     padding: 1em;
   }
   body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts .email_square p {
     font-size: 1.5rem;
     font-weight: bold;
     color: #080E2F;
+    color: white;
   }
   body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts .email_square button {
     background-color: #080E2F;
@@ -4231,12 +4237,15 @@
     margin: 0em 0 0 0;
     gap: 1em;
     background-color: white;
+    background-color: #080E2F;
+    border: 3px solid white;
     padding: 1em;
   }
   body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts .email_square p {
     font-size: 1.5rem;
     font-weight: bold;
     color: #080E2F;
+    color: white;
   }
   body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts .email_square button {
     background-color: #080E2F;
@@ -5623,12 +5632,15 @@
     margin: 0em 0 0 0;
     gap: 1em;
     background-color: white;
+    background-color: #080E2F;
+    border: 3px solid white;
     padding: 1em;
   }
   body #whole_page .slide_in_menu .slide_in_contents .menu_contents .landscape_contents .all_contacts .email_square p {
     font-size: 1.5rem;
     font-weight: bold;
     color: #080E2F;
+    color: white;
   }
   body #whole_page .slide_in_menu .slide_in_contents .menu_contents .landscape_contents .all_contacts .email_square button {
     background-color: #080E2F;
@@ -6995,12 +7007,15 @@
     margin: 0em 0 0 0;
     gap: 1em;
     background-color: white;
+    background-color: #080E2F;
+    border: 3px solid white;
     padding: 1em;
   }
   body #whole_page .slide_in_menu .slide_in_contents .menu_contents .landscape_contents .all_contacts .email_square p {
     font-size: 1.5rem;
     font-weight: bold;
     color: #080E2F;
+    color: white;
   }
   body #whole_page .slide_in_menu .slide_in_contents .menu_contents .landscape_contents .all_contacts .email_square button {
     background-color: #080E2F;
