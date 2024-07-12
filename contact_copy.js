@@ -14,7 +14,7 @@ let copy_success = document.getElementById('copy_success');
 let email_copied = document.getElementById('email_copy');
 
 // add event listener to email button (MOBILE DEVICES)
-copy_email_button.addEventListener('pointerdown', () => {
+copy_email_button.addEventListener('click', () => {
     console.log("email_copy_button");
     // make copy boxes dissapear
     copy_squares.classList.add('tapped');
@@ -44,7 +44,6 @@ copy_email_button.addEventListener('pointerdown', () => {
 let widthMatchDesktop = window.matchMedia("(min-width: 1180px)");
 
 if(widthMatchDesktop.matches) {
-    console.log("Desktop Section");
     copy_email_button.addEventListener('click', () => {
         console.log("email_copy_button");
     });

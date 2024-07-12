@@ -9498,6 +9498,7 @@
     align-items: center;
     cursor: pointer;
     border-radius: 5px;
+    background-color: #146166;
   }
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .all_contacts .email_square button img {
     height: 1.5em;
