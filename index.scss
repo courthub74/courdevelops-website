@@ -121,6 +121,7 @@ $buttongrey: #61677A;
                                 }
                                 button {
                                     background-color: $darkblue;
+                                    background-color: $nextgreen;
                                     border: none;
                                     height: 3em;
                                     width: 3em;
@@ -13550,18 +13551,18 @@ $buttongrey: #61677A;
                                                         height: 1.5em;
                                                         width: 1.5em;
                                                     }
-                                                    #copy_squares {
+                                                    #copy_squares_desktop {
                                                         position: absolute;
                                                         transition: .4s all ease-in;
                                                     }
-                                                    #copy_squares.clicked {
+                                                    #copy_squares_desktop.clicked {
                                                         opacity: 0;
                                                     }
-                                                    #copy_success {
+                                                    #copy_success_desktop {
                                                         opacity: 0;
                                                         transition: .6s all ease-in-out;
                                                     }
-                                                    #copy_success.clicked {
+                                                    #copy_success_desktop.clicked {
                                                         opacity: 1;
                                                     }
                                                 }
@@ -13575,13 +13576,15 @@ $buttongrey: #61677A;
                                                 
                                                 p {
                                                     font-size: .8rem;
+                                                    color: white;
+                                                    font-family: 'Inter', sans-serif;
                                                 }
                                             }
-                                            #email_copy {
+                                            #email_copy_desktop {
                                                 opacity: 0;
                                                 transition: .4s all ease-in;
                                             }
-                                            #email_copy.clicked {
+                                            #email_copy_desktop.clicked {
                                                 opacity: 1;
                                             }
                                         }
