@@ -4208,7 +4208,7 @@
     gap: 1em;
     background-color: white;
     background-color: #080E2F;
-    border: 3px solid white;
+    border: 1px solid white;
     padding: 1em;
   }
   body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts .email_square p {
@@ -5143,32 +5143,28 @@
     border: 3px solid #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;
-    background-color: #00313E;
-    background-color: #060927;
+    background-color: #080E2F;
     box-shadow: none;
   }
   body #whole_page .whole_page .skills_section .skills_section_content #css_skill.tapped {
     border: 3px solid #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;
-    background-color: #00313E;
-    background-color: #060927;
+    background-color: #080E2F;
     box-shadow: none;
   }
   body #whole_page .whole_page .skills_section .skills_section_content #sass_skill.tapped {
     border: 3px solid #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;
-    background-color: #00313E;
-    background-color: #060927;
+    background-color: #080E2F;
     box-shadow: none;
   }
   body #whole_page .whole_page .skills_section .skills_section_content #react_skill.tapped {
     border: 3px solid #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;
-    background-color: #00313E;
-    background-color: #060927;
+    background-color: #080E2F;
     box-shadow: none;
   }
   body #whole_page .whole_page .skills_section .skills_section_content #native_skill.tapped {

@@ -5295,7 +5295,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 // height: 50%;
                                 background-color: white;
                                 background-color: $darkblue;
-                                border: 3px solid white;
+                                border: 1px solid white;
                                 padding: 1em;
                                 p {
                                     font-size: 1.5rem;
@@ -6465,32 +6465,29 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             border: 3px solid $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
-                            background-color: $nextgreen;
-                            background-color: $footerblue;
+                            background-color: $darkblue;
+                            // background: $projectboxes;
                             box-shadow: none;
                         }
                         #css_skill.tapped {
                             border: 3px solid $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
-                            background-color: $nextgreen;
-                            background-color: $footerblue;
+                            background-color: $darkblue;
                             box-shadow: none;
                         }
                         #sass_skill.tapped {
                             border: 3px solid $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
-                            background-color: $nextgreen;
-                            background-color: $footerblue;
+                            background-color: $darkblue;
                             box-shadow: none;
                         }
                         #react_skill.tapped {
                             border: 3px solid $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
-                            background-color: $nextgreen;
-                            background-color: $footerblue;
+                            background-color: $darkblue;
                             box-shadow: none;
                         }
                         #native_skill.tapped {
