@@ -23,30 +23,21 @@
 
                         <!-- ALL THE INPUTS AND TEXTAREAS -->
                          <div class="all_contacts">
-                            <!-- FLEX THESE -->
-                             <!-- NAME AND SUBJECT DIV -->
-                            <div class="name_subject_phone">
-                                <!-- COLUMN THESE -->
-                                <div class="name_section">
-                                    <label>Name:</label>
-                                    <input type="text"/>
-                                </div>
-                                <div class="subject_section">
-                                    <label>Subject:</label>
-                                    <input type="text"/>
-                                </div>
-                                <div class="phone_section">
-                                    <label>Phone#:</label>
-                                    <input type="text"/>
-                                </div>
-                            </div>
-
-                            <!-- MESSAGE SECTION -->
-                            <div class="message_section">
-                                <label>Message:</label>
-                                <textarea id="message_text"></textarea>
-                                <button class="submit_button">Submit</button>
-                            </div>
+                             <!--The Email Square Here  -->
+                             <div class="email_square">
+                                <!-- Email ADDY and COPY button -->
+                                 <p id="email_addy">courdevelops@gmail.com</p>
+                                 <button id="copy_email">
+                                    <!-- Copy Squares -->
+                                    <img src="./img/copybutton/copy_squares.png" id="copy_squares">
+                                    <!-- Copied Check -->
+                                     <img src="./img/copybutton/copy_success.png" id="copy_success">
+                                 </button>
+                             </div>
+                             <!-- Copied -->
+                              <div class="email_copied">
+                                <p id="email_copy">Email Copied</p>
+                              </div>
                          </div>
                     </div>
                         
@@ -151,21 +142,17 @@
 
                     <!-- About Paragraph -->
                     <div class="about_words">
-                        <p>From design to development, I make workflow management and gig work/freelance 
+                        <p>From design to development, I make workflow management, gig economy and freelance 
                             applications. My aim is to help those in tech learn, stay organized, and 
                             get paid while they work to build professional qualifications. 
-                            Adaptive web design and easy navigation for the user ranks high on my list of importance. 
+                            
+                            Ten years working in SaaS (Software as a service) and IT has helped me become a user-centric developer.
+                            Adaptive web design and easy navigation rank high on my list of importance.
+                            My approach is to see the over-arching goal of a company or clients challenge and to compose the most efficient way there. 
+                            This portfolio was developed with just HTML, SASS and JavaScript.
                             <!-- Applications should allow users to concentrate on the work they are performing. -->
-                            
-                            <br><br>
-                        <p>Ten years in tech has given me a first hand perspective in making effective applications.
-                            I do believe that mobile/web applications are the perfect idea for 
-                            certain tasks in business and in life.  The beauty is that they can be 
-                            made customizable for each business and/or person.
-                            
-                            This portfolio was developed using good ole' HTML, SASS and JavaScript.
-                            
                         </p>
+                            
 
                         <!-- Resume Button -->
                         <div class="resume_dload">
@@ -831,12 +818,22 @@
                                     <div class="email_footer">
                                         
                                         <label for="message">Contact.</label>
-                                        <div class="email_submit">
-                                            <!-- NAME INPUT -->
-                                            <input type="text" id="name_text" placeholder="Name:">
-                                            <input type="email" id="email_address" placeholder="Email:">
-                                            <input type="text" id="message_text" placeholder="Message:"/>
-                                            <button type="submit" id="email_button">Submit</button>
+                                        <div class="all_contacts">
+                                            <!--The Email Square Here  -->
+                                            <div class="email_square">
+                                               <!-- Email ADDY and COPY button -->
+                                                <p id="email_addy_desktop">courdevelops@gmail.com</p>
+                                                <button id="copy_email_desktop">
+                                                   <!-- Copy Squares -->
+                                                   <img src="./img/copybutton/copy_squares.png" id="copy_squares_desktop">
+                                                   <!-- Copied Check -->
+                                                    <img src="./img/copybutton/copy_success.png" id="copy_success_desktop">
+                                                </button>
+                                            </div>
+                                            <!-- Copied -->
+                                             <div class="email_copied">
+                                               <p id="email_copy_desktop">Email Copied</p>
+                                             </div>
                                         </div>
                                     </div>
                                     <!-- <div class="footer_logo">
@@ -924,11 +921,11 @@
 
 <!-- JS -->
 <script src="experience.js"></script>
-<!-- <script src="contact.js"></script> -->
+<script src="contact_copy.js"></script>
 <script src="skills.js"></script>
 <script src="portfolio.js"></script>
 <script src="navbar.js"></script>
 <script src="slidemenu.js"></script>
 <!-- Texting -->
- <script src="sendtext.js"></script>
+ <!-- <script src="sendtext.js"></script> -->
 </html>
