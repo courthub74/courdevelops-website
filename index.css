@@ -282,6 +282,7 @@
     height: 50vw;
     width: 15em;
     height: 15em;
+    box-shadow: 3px 3px 3px black;
   }
   body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square {
     display: flex;
@@ -301,6 +302,7 @@
     font-family: "Inter", sans-serif;
     font-weight: bold;
     border-top: 3px solid #00313E;
+    box-shadow: 2px 2px 2px black;
     font-size: 1rem;
     font-size: 1.2rem;
   }
@@ -456,6 +458,7 @@
     background-color: #060927;
     background-color: #33365B;
     background-color: #36395D;
+    background: linear-gradient(45deg, #3b3e93, #060927);
     border-top: 3px solid #61677A;
     height: 19%;
     height: 9em;
@@ -1225,6 +1228,7 @@
     background-color: #060927;
     background-color: #33365B;
     background-color: #36395D;
+    background: linear-gradient(45deg, #3b3e93, #060927);
     border-top: 3px solid #00313E;
     border-top: 3px solid #61677A;
     box-shadow: 2px 2px 2px black;
@@ -1488,7 +1492,7 @@
     padding: 1em;
   }
   body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts .email_square p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: #080E2F;
     color: white;
@@ -1828,6 +1832,7 @@
     background-color: #060927;
     background-color: #33365B;
     background-color: #36395D;
+    background: linear-gradient(45deg, #3b3e93, #060927);
     border-top: 3px solid #61677A;
     height: 9em;
     height: 6em;
@@ -2621,6 +2626,7 @@
     justify-content: center;
     align-items: center;
     background-color: #36395D;
+    background: linear-gradient(45deg, #3b3e93, #060927);
     border-top: 3px solid #61677A;
     border-top: 3px solid #61677A;
     box-shadow: 2px 2px 2px black;
@@ -7330,8 +7336,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #060927;
-    background-color: #33365B;
     background-color: #36395D;
     border-top: 3px solid #61677A;
     height: 9em;
@@ -9771,6 +9775,7 @@
   body #whole_page .whole_page .home_section_content .big_logo_and_square .home_logo #home_logo {
     border-radius: 50%;
     border: 3px solid #00313E;
+    box-shadow: 2px 2px 10px black;
   }
   body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square {
     display: flex;
@@ -9789,7 +9794,9 @@
     background-color: #00313E;
     background-color: #060927;
     border-top: 3px solid #00313E;
+    box-shadow: 1px 1px 8px black;
     padding: 0.5em 2.5em;
+    padding: 0.5em 4em;
     margin: 0 0 0 -1.2em;
   }
   body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .slogan {
@@ -9972,12 +9979,12 @@
     cursor: pointer;
     background-color: #060927;
     background-color: #33365B;
+    background: linear-gradient(45deg, #3b3e93, #060927);
     padding: 15px;
     height: 35em;
     width: 27em;
     width: 25.5%;
-    border-top: 3px solid #00313E;
-    border-top: 3px solid #146166;
+    border-top: 5px solid #00313E;
     border-top: 3px solid #61677A;
     box-shadow: 2px 2px 2px black;
   }
@@ -10219,8 +10226,8 @@
     border-radius: 50%;
     height: 11vw;
     width: 11vw;
-    height: 90%;
-    width: 90%;
+    height: 95%;
+    width: 95%;
     background-color: #060927;
     background-color: #080E2F;
     box-sizing: border-box;
@@ -10509,9 +10516,10 @@
     transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .skills_section .skills_section_content #html_skill.hover {
-    border: 3px solid #00C6C3;
+    border: 1px solid #00C6C3;
     background-color: #00313E;
     background-color: #060927;
+    background-color: #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;
   }
@@ -10519,6 +10527,7 @@
     border: 3px solid #00C6C3;
     background-color: #00313E;
     background-color: #060927;
+    background-color: #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;
   }
@@ -10526,6 +10535,7 @@
     border: 3px solid #00C6C3;
     background-color: #00313E;
     background-color: #060927;
+    background-color: #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;
   }
@@ -10533,6 +10543,7 @@
     border: 3px solid #00C6C3;
     background-color: #00313E;
     background-color: #060927;
+    background-color: #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;
   }
@@ -10540,6 +10551,7 @@
     border: 3px solid #00C6C3;
     background-color: #00313E;
     background-color: #060927;
+    background-color: #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;
   }
@@ -10547,6 +10559,7 @@
     border: 3px solid #00C6C3;
     background-color: #00313E;
     background-color: #060927;
+    background-color: #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;
   }
@@ -10554,6 +10567,7 @@
     border: 3px solid #00C6C3;
     background-color: #00313E;
     background-color: #060927;
+    background-color: #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;
   }
@@ -10561,6 +10575,7 @@
     border: 3px solid #00C6C3;
     background-color: #00313E;
     background-color: #060927;
+    background-color: #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;
   }
@@ -10568,6 +10583,7 @@
     border: 3px solid #00C6C3;
     background-color: #00313E;
     background-color: #060927;
+    background-color: #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;
   }
@@ -10575,6 +10591,7 @@
     border: 3px solid #00C6C3;
     background-color: #00313E;
     background-color: #060927;
+    background-color: #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;
   }
@@ -10582,6 +10599,7 @@
     border: 3px solid #00C6C3;
     background-color: #00313E;
     background-color: #060927;
+    background-color: #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;
   }
@@ -10589,6 +10607,7 @@
     border: 3px solid #00C6C3;
     background-color: #00313E;
     background-color: #060927;
+    background-color: #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;
   }
@@ -10596,6 +10615,7 @@
     border: 3px solid #00C6C3;
     background-color: #00313E;
     background-color: #060927;
+    background-color: #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;
   }
@@ -10698,6 +10718,7 @@
     cursor: pointer;
     background-color: #060927;
     background-color: #33365B;
+    background: linear-gradient(45deg, #3b3e93, #060927);
     height: 29em;
     width: 27em;
     width: 25.5%;

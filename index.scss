@@ -41,6 +41,9 @@ $nextsection: rgba(255, 255, 255, 0.509);
 // $buttongrey: rgba(255, 255, 255, 0.664);
 $buttongrey: #61677A;
 
+// Linear Gradient
+$projectboxes: linear-gradient(45deg, #3b3e93, #060927);
+
 // WHOLE PAGE
 * {
     margin: 0;
@@ -383,6 +386,7 @@ $buttongrey: #61677A;
                                 height: 50vw;
                                 width: 15em;
                                 height: 15em;
+                                box-shadow: 3px 3px 3px black;
                             }
                         }
                         .home_square {
@@ -404,6 +408,7 @@ $buttongrey: #61677A;
                                 font-family: 'Inter', sans-serif;
                                 font-weight: bold;
                                 border-top: 3px solid $nextgreen;
+                                box-shadow: 2px 2px 2px black;
                                 // For the Custom Apps
                                 font-size: 1rem;
                                 // For the Born Name
@@ -621,6 +626,7 @@ $buttongrey: #61677A;
                                 background-color: $footerblue;
                                 background-color: $squaresback;
                                 background-color: $portfolios;
+                                background: $projectboxes;
                                 border-top: 3px solid $buttongrey;
                                 // border-top: 3px solid $nextgreen;
                                 height: 19%;
@@ -1549,6 +1555,7 @@ $buttongrey: #61677A;
                                 background-color: $footerblue;
                                 background-color: $squaresback;
                                 background-color: $portfolios;
+                                background: $projectboxes;
                                 border-top: 3px solid $nextgreen;
                                 // border-top: 3px solid $skillsteal;
                                 border-top: 3px solid $buttongrey;
@@ -1899,7 +1906,7 @@ $buttongrey: #61677A;
                                 border: 3px solid white;
                                 padding: 1em;
                                 p {
-                                    font-size: 1.5rem;
+                                    font-size: 1.2rem;
                                     font-weight: bold;
                                     color: $darkblue;
                                     color: white;
@@ -2304,6 +2311,7 @@ $buttongrey: #61677A;
                                 background-color: $footerblue;
                                 background-color: $squaresback;
                                 background-color: $portfolios;
+                                background: $projectboxes;
                                 border-top: 3px solid $buttongrey;
                                 height: 9em;
                                 height: 6em;
@@ -3298,6 +3306,7 @@ $buttongrey: #61677A;
                                 justify-content: center;
                                 align-items: center;
                                 background-color: $portfolios;
+                                background: $projectboxes;
                                 border-top: 3px solid $buttongrey;
                                 border-top: 3px solid $buttongrey;
                                 box-shadow: 2px 2px 2px black;
@@ -9190,9 +9199,8 @@ $buttongrey: #61677A;
                                 // flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
-                                background-color: $footerblue;
-                                background-color: $squaresback;
                                 background-color: $portfolios;
+                                // background-color: $projectboxes;
                                 border-top: 3px solid $buttongrey;
                                 height: 9em;
                                 // height: 6em;
@@ -12153,6 +12161,7 @@ $buttongrey: #61677A;
                             #home_logo {
                                 border-radius: 50%;
                                 border: 3px solid $nextgreen;
+                                box-shadow: 2px 2px 10px black;
                                 // border: 2px solid $skillsteal;
                             }
                         }
@@ -12162,8 +12171,7 @@ $buttongrey: #61677A;
                             justify-content: center;
                             align-items: center;
                             gap: 1em;
-                            // border: 3px solid $portfolios;
-                            // border: 3px solid $nextgreen;
+                            // box-shadow: 4px 4px 15px $nextgreen;
                             border-radius: 10px;
                             header {
                                 color: white;
@@ -12174,8 +12182,9 @@ $buttongrey: #61677A;
                                 background-color: $nextgreen;
                                 background-color: $footerblue;
                                 border-top: 3px solid $nextgreen;
-                                // border-top: 2px solid $skillsteal;
+                                box-shadow: 1px 1px 8px black;
                                 padding: .5em 2.5em;
+                                padding: .5em 4em;
                                 margin: 0 0 0 -1.2em;
                             }
                             .slogan {
@@ -12393,13 +12402,14 @@ $buttongrey: #61677A;
                                 cursor: pointer;
                                 background-color: $footerblue;
                                 background-color: $squaresback;
+                                background: $projectboxes;
                                 // padding: 15em 3em;
                                 padding: 15px;
                                 height: 35em;
                                 width: 27em;
                                 width: 25.5%;
-                                border-top: 3px solid $nextgreen;
-                                border-top: 3px solid $skillsteal;
+                                border-top: 5px solid $nextgreen;
+                                // border-top: 3px solid $skillsteal;
                                 border-top: 3px solid $buttongrey;
                                 box-shadow: 2px 2px 2px black;
                                 // THE PORTFOLIO SQUARE CONTENTS
@@ -12606,6 +12616,7 @@ $buttongrey: #61677A;
                             /// SQUARES BY ID TO LIGHT THE TOP
                             #portfolio_square_one.hover {
                                 border-top: 3px solid white;
+                                // border-top: 3px solid $skillsteal;
                             }
                             #portfolio_square_two.hover {
                                 border-top: 3px solid white;
@@ -12697,8 +12708,8 @@ $buttongrey: #61677A;
                                 border-radius: 50%;
                                 height: 11vw;
                                 width: 11vw;
-                                height: 90%;
-                                width: 90%;
+                                height: 95%;
+                                width: 95%;
                                 background-color: $footerblue;
                                 background-color: $darkblue;
                                 // border: 3px solid $skillsteal;
@@ -13040,12 +13051,14 @@ $buttongrey: #61677A;
                                     }
                                 }
                             }
+                            // BACKGROUND FOR HOVER
                         }
                         // OUTER RING FOR HOVER
                         #html_skill.hover {
-                            border: 3px solid $jobdescription;
+                            border: 1px solid $jobdescription;
                             background-color: $nextgreen;
                             background-color: $footerblue;
+                            background-color: $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
                         }
@@ -13053,6 +13066,7 @@ $buttongrey: #61677A;
                             border: 3px solid $jobdescription;
                             background-color: $nextgreen;
                             background-color: $footerblue;
+                            background-color: $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
                         }
@@ -13060,6 +13074,7 @@ $buttongrey: #61677A;
                             border: 3px solid $jobdescription;
                             background-color: $nextgreen;
                             background-color: $footerblue;
+                            background-color: $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
                         }
@@ -13067,6 +13082,7 @@ $buttongrey: #61677A;
                             border: 3px solid $jobdescription;
                             background-color: $nextgreen;
                             background-color: $footerblue;
+                            background-color: $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
                         }
@@ -13074,6 +13090,7 @@ $buttongrey: #61677A;
                             border: 3px solid $jobdescription;
                             background-color: $nextgreen;
                             background-color: $footerblue;
+                            background-color: $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
                         }
@@ -13081,6 +13098,7 @@ $buttongrey: #61677A;
                             border: 3px solid $jobdescription;
                             background-color: $nextgreen;
                             background-color: $footerblue;
+                            background-color: $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
                         }
@@ -13088,6 +13106,7 @@ $buttongrey: #61677A;
                             border: 3px solid $jobdescription;
                             background-color: $nextgreen;
                             background-color: $footerblue;
+                            background-color: $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
                         }
@@ -13095,6 +13114,7 @@ $buttongrey: #61677A;
                             border: 3px solid $jobdescription;
                             background-color: $nextgreen;
                             background-color: $footerblue;
+                            background-color: $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box; 
                         }
@@ -13102,6 +13122,7 @@ $buttongrey: #61677A;
                             border: 3px solid $jobdescription;
                             background-color: $nextgreen;
                             background-color: $footerblue;
+                            background-color: $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
                         }
@@ -13109,6 +13130,7 @@ $buttongrey: #61677A;
                             border: 3px solid $jobdescription;
                             background-color: $nextgreen;
                             background-color: $footerblue;
+                            background-color: $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
                         }
@@ -13116,6 +13138,7 @@ $buttongrey: #61677A;
                             border: 3px solid $jobdescription;
                             background-color: $nextgreen;
                             background-color: $footerblue;
+                            background-color: $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
                         }
@@ -13123,6 +13146,7 @@ $buttongrey: #61677A;
                             border: 3px solid $jobdescription;
                             background-color: $nextgreen;
                             background-color: $footerblue;
+                            background-color: $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
                         }
@@ -13130,6 +13154,7 @@ $buttongrey: #61677A;
                             border: 3px solid $jobdescription;
                             background-color: $nextgreen;
                             background-color: $footerblue;
+                            background-color: $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
                         }
@@ -13247,6 +13272,7 @@ $buttongrey: #61677A;
                                 cursor: pointer;
                                 background-color: $footerblue;
                                 background-color: $squaresback;
+                                background: $projectboxes;
                                 // padding: 15em 3em;
                                 height: 29em;
                                 width: 27em;
