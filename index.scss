@@ -525,15 +525,17 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             font-family: 'Inter', sans-serif;
                             font-size: .9rem;
                             line-height: 1.5em;
-                            margin: 1.5em 0 0 0;
+                            margin: 2em 0 0 0;
+                            // background-color: #0d1270;
                             width: 100%;
+                            width: 80%;
                         }
                         .resume_dload {
                             background-color: white;
                             // padding: .5em .5em .5em .5em;
                             padding: .7em 0 .7em 0;
                             width: 14em;
-                            margin: 1em 0 0 0;
+                            margin: 2em 0 0 0;
                             text-align: center;
                             a {
                                 color: $nextgreen;
@@ -2223,6 +2225,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             line-height: 1.5em;
                             margin: 1.5em 0 0 0;
                             width: 100%;
+                            width: 70%;
                         }
                         .resume_dload {
                             background-color: white;
@@ -2230,7 +2233,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             // padding: .7em 0  .7em 0;
                             padding: .6em 0em;
                             width: 14em;
-                            margin: 1.5em 0 0 0;
+                            margin: 2.5em 0 0 0;
                             text-align: center;
                             a {
                                 color: $nextgreen;
