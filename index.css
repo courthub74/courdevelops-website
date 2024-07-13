@@ -1403,8 +1403,8 @@
   .next_section_down {
     display: flex;
     justify-content: right;
-    justify-content: center;
     align-items: center;
+    width: 100%;
   }
   .next_section_down a {
     display: flex;
@@ -4134,7 +4134,6 @@
   .next_section_down {
     display: flex;
     justify-content: right;
-    justify-content: center;
     align-items: center;
   }
   .next_section_down a {
@@ -5511,7 +5510,6 @@
   .next_section_down {
     display: flex;
     justify-content: right;
-    justify-content: center;
     align-items: center;
   }
   .next_section_down a {
@@ -6880,7 +6878,6 @@
   .next_section_down {
     display: flex;
     justify-content: right;
-    justify-content: center;
     align-items: center;
     margin: 2em 0 0 0;
   }
@@ -8245,7 +8242,6 @@
   .next_section_down {
     display: flex;
     justify-content: right;
-    justify-content: center;
     align-items: center;
     margin: 2em 0 0 0;
   }

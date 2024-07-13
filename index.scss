@@ -1804,9 +1804,10 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
         .next_section_down {
             display: flex;
             justify-content: right;
-            justify-content: center;
+            // justify-content: center;
             align-items: center;
             // background-color: #00C6C3;
+            width: 100%;
             a {
                 display: flex;
                 text-decoration: none;
@@ -5211,7 +5212,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
         .next_section_down {
             display: flex;
             justify-content: right;
-            justify-content: center;
+            // justify-content: center;
             align-items: center;
             // background-color: #00C6C3;
             a {
@@ -6954,7 +6955,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
         .next_section_down {
             display: flex;
             justify-content: right;
-            justify-content: center;
+            // justify-content: center;
             align-items: center;
             // background-color: #00C6C3;
             a {
@@ -8659,7 +8660,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
         .next_section_down {
            display: flex;
            justify-content: right;
-           justify-content: center;
+        //    justify-content: center;
            align-items: center;
            margin: 2em 0 0 0;
            a {
@@ -10357,7 +10358,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
         .next_section_down {
            display: flex;
            justify-content: right;
-           justify-content: center;
+        //    justify-content: center;
            align-items: center;
            margin: 2em 0 0 0;
            a {
