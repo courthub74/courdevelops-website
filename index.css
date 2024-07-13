@@ -1403,6 +1403,7 @@
   .next_section_down {
     display: flex;
     justify-content: right;
+    justify-content: center;
     align-items: center;
   }
   .next_section_down a {
@@ -3107,14 +3108,15 @@
     font-size: 0.9rem;
     font-size: 1rem;
     line-height: 1.8em;
-    margin: 1.5em 0 0 0;
+    margin: 2em 0 0 0;
     width: 100%;
+    width: 80%;
   }
   body #whole_page .whole_page .about_section .about_section_content .resume_dload {
     background-color: white;
     padding: 0.5em 0 0.5em 0;
     width: 14em;
-    margin: 2em 0 0 0;
+    margin: 2.5em 0 0 0;
     text-align: center;
   }
   body #whole_page .whole_page .about_section .about_section_content .resume_dload a {
@@ -4132,6 +4134,7 @@
   .next_section_down {
     display: flex;
     justify-content: right;
+    justify-content: center;
     align-items: center;
   }
   .next_section_down a {
@@ -4482,14 +4485,15 @@
     font-size: 0.9rem;
     font-size: 1rem;
     line-height: 1.8em;
-    margin: 1.5em 0 0 0;
+    margin: 2em 0 0 0;
     width: 100%;
+    width: 80%;
   }
   body #whole_page .whole_page .about_section .about_section_content .resume_dload {
     background-color: white;
     padding: 0.5em 0 0.5em 0;
     width: 14em;
-    margin: 2em 0 0 0;
+    margin: 2.5em 0 0 0;
     text-align: center;
   }
   body #whole_page .whole_page .about_section .about_section_content .resume_dload a {
@@ -5507,6 +5511,7 @@
   .next_section_down {
     display: flex;
     justify-content: right;
+    justify-content: center;
     align-items: center;
   }
   .next_section_down a {
@@ -5858,14 +5863,15 @@
     font-family: "Inter", sans-serif;
     font-size: 1.2rem;
     line-height: 1.5em;
-    margin: 1.5em 0 0 0;
+    margin: 2em 0 0 0;
     width: 100%;
+    width: 80%;
   }
   body .whole_page .about_section .about_section_content .resume_dload {
     background-color: white;
     padding: 0.6em 0em;
     width: 14em;
-    margin: 1.5em 0 0 0;
+    margin: 2em 0 0 0;
     text-align: center;
   }
   body .whole_page .about_section .about_section_content .resume_dload a {
@@ -6874,6 +6880,7 @@
   .next_section_down {
     display: flex;
     justify-content: right;
+    justify-content: center;
     align-items: center;
     margin: 2em 0 0 0;
   }
@@ -7221,14 +7228,15 @@
     font-family: "Inter", sans-serif;
     font-size: 1.2rem;
     line-height: 1.5em;
-    margin: 1.5em 0 0 0;
+    margin: 2em 0 0 0;
     width: 100%;
+    width: 80%;
   }
   body .whole_page .about_section .about_section_content .resume_dload {
     background-color: white;
     padding: 0.6em 0em;
     width: 14em;
-    margin: 1.5em 0 0 0;
+    margin: 2em 0 0 0;
     text-align: center;
   }
   body .whole_page .about_section .about_section_content .resume_dload a {
@@ -8237,6 +8245,7 @@
   .next_section_down {
     display: flex;
     justify-content: right;
+    justify-content: center;
     align-items: center;
     margin: 2em 0 0 0;
   }
