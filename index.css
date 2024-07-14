@@ -553,7 +553,7 @@
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_content {
     display: flex;
     flex-direction: column;
-    gap: 1.5em;
+    gap: 1.2em;
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 0.8rem;
