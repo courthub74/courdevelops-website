@@ -2088,6 +2088,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 border: 3px solid $nextgreen;
                                 width: 13em;
                                 height: 13em;
+                                box-shadow: 2px 2px 2px black;
                                 // border: 2px solid $skillsteal;
                             }
                         }
@@ -2110,6 +2111,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 // border-top: 2px solid $skillsteal;
                                 padding: .5em 3em;
                                 margin: 0 0 0 -2.2em;
+                                box-shadow: 2px 2px 2px black;
                                 p {
                                     margin: 0 0 0 1.2em;
                                 }
