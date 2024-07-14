@@ -27,6 +27,10 @@ let learn_more_button = document.querySelector('.learn_more');
 // Query the Body to stop the scroll
 let whole_body = document.querySelector('body');
 
+// Query the back to home button
+let home_button = document.getElementById('back_home');
+
+
 // event listener for the menu button
 menu_button.addEventListener('pointerdown', () => {
     console.log('Menu Button Pressed');
@@ -64,23 +68,19 @@ contact_nav.addEventListener('pointerdown', () => {
     whole_body.classList.toggle('stop_scroll');
 });
 
-// Query the back to home button
-let home_button = document.getElementById('back_home');
-
+// For the Home Button
 // add event listener to the home button
 home_button.addEventListener('pointerdown', () => {
     console.log("Back to Home pressed");
-    menu_button_ring.classList.toggle('tapped');
-    menu_button.classList.toggle('tapped');
-    menu_button_text.classList.toggle('tapped');
-    slide_in_menu.classList.toggle('tapped');
-    if (menu_button_text.innerText === "Contact") {
-        menu_button_text.innerText = "Back";
-    } else {
+    menu_button_ring.classList.remove('tapped');
+    menu_button.classList.remove('tapped');
+    menu_button_text.classList.remove('tapped');
+    slide_in_menu.classList.remove('tapped');
+    if (menu_button_text.innerText === "Back") {
         menu_button_text.innerText = "Contact";
-    }
-    learn_more_button.classList.toggle('slide');
-    whole_body.classList.toggle('stop_scroll');
+    } 
+    learn_more_button.classList.remove('slide');
+    whole_body.classList.remove('stop_scroll');
 });
 
 
