@@ -157,6 +157,24 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                     }
                                 }
                             }
+                            // Back to Home Button
+                            #back_home {
+                                background: none;
+                                border: none;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                                font-size: 1rem;
+                                color: white;
+                                margin-top: 2em;
+                                cursor: pointer;
+                                display: flex;
+                                align-items: center;
+                                gap: .5em;
+                                #home_page {
+                                    height: 1.2em;
+                                    width: 1.2em;
+                                }
+                            }
                             // Email Copied words
                             .email_copied {
                                 text-align: right;
@@ -756,7 +774,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             display: flex;
                             flex-direction: column;
                             // gap: 2em;
-                            gap: 1.5em;
+                            gap: 1.2em;
                             color: white;
                             font-family: 'Inter', sans-serif;
                             font-size: .8rem;

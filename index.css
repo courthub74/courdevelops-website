@@ -98,6 +98,23 @@
   body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts .email_square button #copy_success.tapped {
     opacity: 1;
   }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts #back_home {
+    background: none;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    margin-top: 2em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts #back_home #home_page {
+    height: 1.2em;
+    width: 1.2em;
+  }
   body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts .email_copied {
     text-align: right;
     width: 100%;
@@ -553,7 +570,7 @@
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_content {
     display: flex;
     flex-direction: column;
-    gap: 1.5em;
+    gap: 1.2em;
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 0.8rem;

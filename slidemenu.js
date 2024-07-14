@@ -44,25 +44,43 @@ menu_button.addEventListener('pointerdown', () => {
 });
 
 
+// For the Contact Button on bottom nav
+// Query the contact button in nav
+let contact_nav = document.getElementById('contact_nav');
+// slide to home page
+// activate the contact button
+contact_nav.addEventListener('pointerdown', () => {
+    console.log('Contact Button Pressed');
+    menu_button_ring.classList.toggle('tapped');
+    menu_button.classList.toggle('tapped');
+    menu_button_text.classList.toggle('tapped');
+    slide_in_menu.classList.toggle('tapped');
+    if (menu_button_text.innerText === "Contact") {
+        menu_button_text.innerText = "Back";
+    } else {
+        menu_button_text.innerText = "Contact";
+    }
+    learn_more_button.classList.toggle('slide');
+    whole_body.classList.toggle('stop_scroll');
+});
 
-// FOR WHEN THERE WAS A SELECTORS LIST 
-// add event listeners to the list selectors
-// iterate through the slide_in_selectors using the forEach method
-// slide_in_selectors.forEach((e) => {
-//     e.addEventListener('pointerdown', () => {
-//         console.log("Pressit");
-//         slide_in_menu.classList.remove('tapped');
-//         menu_button_ring.classList.toggle('tapped');
-//         menu_button.classList.toggle('tapped');
-//         menu_button_text.classList.toggle('tapped');
-//         if (menu_button_text.innerText === "Contact.") {
-//             menu_button_text.innerText = "Close";
-//         } else {
-//             menu_button_text.innerText = "Contact.";
-//         }
-//         learn_more_button.classList.toggle('slide');
-//     });
-// });
+// Query the back to home button
+let home_button = document.getElementById('back_home');
 
+// add event listener to the home button
+home_button.addEventListener('pointerdown', () => {
+    console.log("Back to Home pressed");
+    menu_button_ring.classList.toggle('tapped');
+    menu_button.classList.toggle('tapped');
+    menu_button_text.classList.toggle('tapped');
+    slide_in_menu.classList.toggle('tapped');
+    if (menu_button_text.innerText === "Contact") {
+        menu_button_text.innerText = "Back";
+    } else {
+        menu_button_text.innerText = "Contact";
+    }
+    learn_more_button.classList.toggle('slide');
+    whole_body.classList.toggle('stop_scroll');
+});
 
 
