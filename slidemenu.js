@@ -64,4 +64,23 @@ contact_nav.addEventListener('pointerdown', () => {
     whole_body.classList.toggle('stop_scroll');
 });
 
+// Query the back to home button
+let home_button = document.getElementById('back_home');
+
+// add event listener to the home button
+home_button.addEventListener('pointerdown', () => {
+    console.log("Back to Home pressed");
+    menu_button_ring.classList.toggle('tapped');
+    menu_button.classList.toggle('tapped');
+    menu_button_text.classList.toggle('tapped');
+    slide_in_menu.classList.toggle('tapped');
+    if (menu_button_text.innerText === "Contact") {
+        menu_button_text.innerText = "Back";
+    } else {
+        menu_button_text.innerText = "Contact";
+    }
+    learn_more_button.classList.toggle('slide');
+    whole_body.classList.toggle('stop_scroll');
+});
+
 
