@@ -4,7 +4,7 @@
 
 ### I am Courtney Jacobs gig economy and freelance platform web developer. My true passion is to make the workforce more productive, and to leverage technology to help those seeking work gain experience.
 
-[Check out the site](https://courdevelops.com)
+[Visit site](https://courdevelops.com)
 
 <hr>
 
