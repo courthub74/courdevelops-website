@@ -10925,7 +10925,8 @@
   body #whole_page .whole_page .experience_section .experience_section_content #footer_section_id .footer_section_content .footer_elements .email_footer .all_contacts .email_square p {
     font-family: "Inter", sans-serif;
     font-size: 1.3rem;
-    font-weight: bold;
+    font-size: 1rem;
+    font-weight: normal;
     color: #080E2F;
     color: white;
   }
